@@ -36,10 +36,16 @@
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="NextEditorTab" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
     <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
+  <action id="OpenFileInCursor">
+    <keyboard-shortcut first-keystroke="shift meta alt a" />
+  </action>
+  <action id="OpenProjectInCursor" />
+  <action id="PreviousEditorTab" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta alt left" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
@@ -50,6 +56,9 @@
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="f13" />
+  </action>
+  <action id="ShowSearchHistory">
+    <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="Terminal.ClearBuffer" />
   <action id="android.deploy.ApplyChanges">

@@ -36,6 +36,9 @@
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="LocalHistory">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
   <action id="NextEditorTab" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
